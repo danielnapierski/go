@@ -46,6 +46,7 @@ struct LedgerHeader
 
     uint32 ledgerSeq; // sequence number of this ledger
 
+// ONFO: This is what we want to change to be dynamic.  Read from blockchain.
     int64 totalCoins; // total number of stroops in existence.
                       // 10,000,000 stroops in 1 XLM
 
