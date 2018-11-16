@@ -5,15 +5,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/stellar/go/services/horizon/internal/actions"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/actions"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/core"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/httpx"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/ledger"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/render/problem"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/toid"
+	"github.com/danielnapierski/go-alt/support/errors"
+	"github.com/danielnapierski/go-alt/support/log"
 )
 
 // Action is the "base type" for all actions in horizon.  It provides

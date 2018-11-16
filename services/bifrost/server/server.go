@@ -13,16 +13,16 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/services/bifrost/bitcoin"
-	"github.com/stellar/go/services/bifrost/common"
-	"github.com/stellar/go/services/bifrost/database"
-	"github.com/stellar/go/services/bifrost/ethereum"
-	"github.com/stellar/go/support/app"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/http"
-	"github.com/stellar/go/support/log"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/keypair"
+	"github.com/danielnapierski/go-alt/services/bifrost/bitcoin"
+	"github.com/danielnapierski/go-alt/services/bifrost/common"
+	"github.com/danielnapierski/go-alt/services/bifrost/database"
+	"github.com/danielnapierski/go-alt/services/bifrost/ethereum"
+	"github.com/danielnapierski/go-alt/support/app"
+	"github.com/danielnapierski/go-alt/support/errors"
+	"github.com/danielnapierski/go-alt/support/http"
+	"github.com/danielnapierski/go-alt/support/log"
+	"github.com/danielnapierski/go-alt/xdr"
 )
 
 func (s *Server) Start() error {

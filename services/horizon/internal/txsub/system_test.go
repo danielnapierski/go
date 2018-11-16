@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stellar/go/build"
-	"github.com/stellar/go/services/horizon/internal/test"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
+	"github.com/danielnapierski/go-alt/build"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/test"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/txsub/sequence"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

@@ -7,18 +7,18 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/stellar/go/clients/stellarcore"
+	"github.com/danielnapierski/go-alt/clients/stellarcore"
 
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/keypair"
-	"github.com/stellar/go/meta"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ingest/participants"
-	"github.com/stellar/go/support/errors"
-	ilog "github.com/stellar/go/support/log"
-	sTime "github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/amount"
+	"github.com/danielnapierski/go-alt/keypair"
+	"github.com/danielnapierski/go-alt/meta"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/core"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/ingest/participants"
+	"github.com/danielnapierski/go-alt/support/errors"
+	ilog "github.com/danielnapierski/go-alt/support/log"
+	sTime "github.com/danielnapierski/go-alt/support/time"
+	"github.com/danielnapierski/go-alt/xdr"
 )
 
 // Run starts an attempt to ingest the range of ledgers specified in this

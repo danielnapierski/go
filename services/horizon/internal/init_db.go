@@ -1,10 +1,10 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/core"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/support/db"
+	"github.com/danielnapierski/go-alt/support/log"
 )
 
 func initHorizonDb(app *App) {

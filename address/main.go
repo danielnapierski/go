@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/asaskevich/govalidator"
-	"github.com/stellar/go/support/errors"
+	"github.com/danielnapierski/go-alt/support/errors"
 )
 
 // Separator seperates the name and domain portions of an address

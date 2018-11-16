@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/stellar/go/build"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/build"
+	"github.com/danielnapierski/go-alt/xdr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

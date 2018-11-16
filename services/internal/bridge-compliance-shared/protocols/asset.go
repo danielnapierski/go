@@ -3,12 +3,12 @@ package protocols
 import (
 	"fmt"
 
-	"github.com/stellar/go/build"
-	shared "github.com/stellar/go/services/internal/bridge-compliance-shared"
-	"github.com/stellar/go/support/errors"
+	"github.com/danielnapierski/go-alt/build"
+	shared "github.com/danielnapierski/go-alt/services/internal/bridge-compliance-shared"
+	"github.com/danielnapierski/go-alt/support/errors"
 )
 
-// ToBaseAsset transforms Asset to github.com/stellar/go-stellar-base/build.Asset
+// ToBaseAsset transforms Asset to github.com/danielnapierski/go-alt-stellar-base/build.Asset
 func (a Asset) ToBaseAsset() build.Asset {
 	if a.Code == "" && a.Issuer == "" {
 		return build.NativeAsset()

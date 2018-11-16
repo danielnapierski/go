@@ -1,7 +1,7 @@
 package federation
 
-import "github.com/stellar/go/support/db"
-import "github.com/stellar/go/support/errors"
+import "github.com/danielnapierski/go-alt/support/db"
+import "github.com/danielnapierski/go-alt/support/errors"
 
 // LookupRecord implements `Driver` by performing `drv.LookupRecordQuery`
 // against `drv.DB` using the provided parameters

@@ -3,8 +3,8 @@ package resourceadapter
 import (
 	"context"
 
-	"github.com/stellar/go/services/horizon/internal/txsub"
-	. "github.com/stellar/go/protocols/horizon"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/txsub"
+	. "github.com/danielnapierski/go-alt/protocols/horizon"
 
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/go-errors/errors"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

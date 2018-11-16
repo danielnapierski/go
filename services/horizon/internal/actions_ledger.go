@@ -1,14 +1,14 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	"github.com/stellar/go/services/horizon/internal/resourceadapter"
-	"github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/support/render/hal"
-	"github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/ledger"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/resourceadapter"
+	"github.com/danielnapierski/go-alt/protocols/horizon"
+	"github.com/danielnapierski/go-alt/support/render/hal"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/render/problem"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/render/sse"
 )
 
 // This file contains the actions:

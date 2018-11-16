@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/stellar/go/services/horizon/internal/test"
-	supportLog "github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/test"
+	supportLog "github.com/danielnapierski/go-alt/support/log"
 	"github.com/throttled/throttled"
 )
 

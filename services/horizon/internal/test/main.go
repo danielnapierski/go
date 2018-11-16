@@ -12,9 +12,9 @@ import (
 
 	"github.com/jmoiron/sqlx"
 	"github.com/sirupsen/logrus"
-	"github.com/stellar/go/services/horizon/internal/logmetrics"
-	tdb "github.com/stellar/go/services/horizon/internal/test/db"
-	"github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/logmetrics"
+	tdb "github.com/danielnapierski/go-alt/services/horizon/internal/test/db"
+	"github.com/danielnapierski/go-alt/support/log"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

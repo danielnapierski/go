@@ -8,17 +8,17 @@ import (
 	"fmt"
 
 	"github.com/go-chi/chi"
-	"github.com/stellar/go/amount"
-	"github.com/stellar/go/services/horizon/internal/assets"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	"github.com/stellar/go/services/horizon/internal/ledger"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/toid"
-	"github.com/stellar/go/strkey"
-	"github.com/stellar/go/support/errors"
-	"github.com/stellar/go/support/render/problem"
-	"github.com/stellar/go/support/time"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/amount"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/assets"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/ledger"
+	hProblem "github.com/danielnapierski/go-alt/services/horizon/internal/render/problem"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/toid"
+	"github.com/danielnapierski/go-alt/strkey"
+	"github.com/danielnapierski/go-alt/support/errors"
+	"github.com/danielnapierski/go-alt/support/render/problem"
+	"github.com/danielnapierski/go-alt/support/time"
+	"github.com/danielnapierski/go-alt/xdr"
 )
 
 const (

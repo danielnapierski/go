@@ -10,10 +10,10 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/stellar/go/services/horizon/internal/db2/schema"
-	"github.com/stellar/go/services/horizon/internal/ingest"
-	"github.com/stellar/go/support/db"
-	hlog "github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/schema"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/ingest"
+	"github.com/danielnapierski/go-alt/support/db"
+	hlog "github.com/danielnapierski/go-alt/support/log"
 )
 
 var dbCmd = &cobra.Command{

@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/stellar/go/keypair"
+	"github.com/danielnapierski/go-alt/keypair"
 )
 
 type Config struct {

@@ -3,7 +3,7 @@ package codes
 import (
 	"testing"
 
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

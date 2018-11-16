@@ -4,12 +4,12 @@ import (
 	"testing"
 
 	sq "github.com/Masterminds/squirrel"
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/test"
-	testDB "github.com/stellar/go/services/horizon/internal/test/db"
-	"github.com/stellar/go/support/db"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/core"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/test"
+	testDB "github.com/danielnapierski/go-alt/services/horizon/internal/test/db"
+	"github.com/danielnapierski/go-alt/support/db"
+	"github.com/danielnapierski/go-alt/xdr"
 	"github.com/stretchr/testify/assert"
 )
 

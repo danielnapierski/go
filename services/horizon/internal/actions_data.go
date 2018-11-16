@@ -1,9 +1,9 @@
 package horizon
 
 import (
-	"github.com/stellar/go/services/horizon/internal/db2/core"
-	"github.com/stellar/go/services/horizon/internal/render/sse"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/core"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/render/sse"
+	"github.com/danielnapierski/go-alt/support/render/hal"
 )
 
 // DataShowAction renders a account summary found by its address.

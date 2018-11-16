@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/stellar/go/amount"
-	. "github.com/stellar/go/protocols/horizon"
-	"github.com/stellar/go/services/horizon/internal/db2/history"
-	"github.com/stellar/go/services/horizon/internal/httpx"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/danielnapierski/go-alt/amount"
+	. "github.com/danielnapierski/go-alt/protocols/horizon"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2/history"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/httpx"
+	"github.com/danielnapierski/go-alt/support/render/hal"
 )
 
 // Populate fills out the details of a trade using a row from the history_trades

@@ -3,7 +3,7 @@ package build
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/stellar/go/xdr"
+	"github.com/danielnapierski/go-alt/xdr"
 )
 
 var _ = Describe("BumpSequenceBuilder Mutators", func() {

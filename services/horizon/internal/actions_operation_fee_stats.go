@@ -3,8 +3,8 @@ package horizon
 import (
 	"fmt"
 
-	"github.com/stellar/go/services/horizon/internal/operationfeestats"
-	"github.com/stellar/go/support/render/hal"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/operationfeestats"
+	"github.com/danielnapierski/go-alt/support/render/hal"
 )
 
 // This file contains the actions:

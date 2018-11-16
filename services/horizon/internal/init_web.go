@@ -12,10 +12,10 @@ import (
 	"github.com/rcrowley/go-metrics"
 	"github.com/rs/cors"
 	"github.com/sebest/xff"
-	"github.com/stellar/go/services/horizon/internal/db2"
-	hProblem "github.com/stellar/go/services/horizon/internal/render/problem"
-	"github.com/stellar/go/services/horizon/internal/txsub/sequence"
-	"github.com/stellar/go/support/render/problem"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/db2"
+	hProblem "github.com/danielnapierski/go-alt/services/horizon/internal/render/problem"
+	"github.com/danielnapierski/go-alt/services/horizon/internal/txsub/sequence"
+	"github.com/danielnapierski/go-alt/support/render/problem"
 	"github.com/throttled/throttled"
 )
 

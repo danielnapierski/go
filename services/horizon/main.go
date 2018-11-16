@@ -9,8 +9,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/stellar/go/services/horizon/internal"
-	"github.com/stellar/go/support/log"
+	"github.com/danielnapierski/go-alt/services/horizon/internal"
+	"github.com/danielnapierski/go-alt/support/log"
 	"github.com/throttled/throttled"
 )
 
